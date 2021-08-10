@@ -1,0 +1,9 @@
+name: macawlabs
+recipe: wordpress
+config:
+  webroot: .
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
